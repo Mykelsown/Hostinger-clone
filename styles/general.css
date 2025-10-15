@@ -1,0 +1,32 @@
+:root{
+  --font-size-1: 1rem;
+  --para-font-size: 1.3rem;
+  --header1-font-size: 2.5rem;
+  --header2-font-size: 2rem;
+  --header3-font-size: 1.4rem;
+  --header4-font-size: 1.2rem;
+  --less-bold: 400;
+  --bold: 500;
+  --more-bold: 700;
+  --para-margin-bottom-top: 10px 0px;
+  --para-margin-left-right: 0px 5px;
+  --mg-btm: 15px;
+  --para-margin-all: 10px;
+  --color-pur: rgba(92, 1, 196, 0.979);
+  --btn-padding-top-bottom: 8px 0px;
+  --btn-padding-left-right: 0px 40px;
+  --btn-padding-all: 10px 40px 10px 40px;
+  --btn-rad: 8px;
+  --btn-style: solid;
+  --none: none;
+  --color-w: white;
+}
+
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1, h2, h3, h4{
+  margin: 0px;
+}
