@@ -1,9 +1,9 @@
-:root{
-  --font-size-1: 1rem;
+:root {
+  --font-size-1: 1.3rem;
   --para-font-size: 1.3rem;
-  --header1-font-size: 2.5rem;
+  --header1-font-size: 2.7rem;
   --header2-font-size: 2rem;
-  --header3-font-size: 1.4rem;
+  --header3-font-size: 1.5rem;
   --header4-font-size: 1.2rem;
   --less-bold: 400;
   --bold: 500;
@@ -15,18 +15,40 @@
   --color-pur: rgba(92, 1, 196, 0.979);
   --btn-padding-top-bottom: 8px 0px;
   --btn-padding-left-right: 0px 40px;
-  --btn-padding-all: 10px 40px 10px 40px;
+  --btn-padding-all: 15px 60px 15px 60px;
   --btn-rad: 8px;
   --btn-style: solid;
   --none: none;
   --color-w: white;
 }
 
-body{
-  margin: 0px;
+/* make sizing predictable and images responsive */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p, h1, h2, h3, h4{
+/* make images and media scale within their containers */
+img,
+picture,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
   margin: 0px;
 }

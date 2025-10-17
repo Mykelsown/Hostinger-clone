@@ -1,5 +1,4 @@
-
-.hero-section-top{
+.hero-section-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,12 +10,13 @@
   background-color: var(--color-w);
 }
 
-.header-sect-1, .header-sect-2{
+.header-sect-1,
+.header-sect-2 {
   display: flex;
   align-items: center;
 }
 
-.header-nav-bar a{
+.header-nav-bar a {
   text-decoration: none;
   padding-left: 45px;
   color: black;
@@ -24,12 +24,21 @@
   font-weight: var(--bold);
 }
 
-.web-name{
+.hostinger-iocn-cont {
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.hostinger-icon {
+  width: 100%;
+}
+
+.web-name {
   font-size: 1.35rem;
   font-weight: 700;
 }
 
-.country-select{
+.country-select {
   display: flex;
   align-items: center;
   font-size: 1.1rem;
@@ -37,27 +46,27 @@
   font-weight: var(--more-bold);
 }
 
-.flag-icon{
+.flag-icon {
   width: 22px;
   margin-right: 4px;
 }
 
-.my-account-btn{
+.my-account-btn {
   padding: 13px;
   background-color: var(--color-w);
   border-style: solid;
-  border-radius: var(--btn-rad);  
+  border-radius: var(--btn-rad);
   font-weight: var(--more-bold);
   border-width: 1px;
 }
 
-.drop{
+.drop {
   outline: none;
   border: none;
   width: 20px;
 }
 
-.hero-sect{
+.hero-sect {
   display: flex;
   justify-content: center;
   align-content: start;
@@ -66,46 +75,47 @@
   margin-top: 20px;
 }
 
-.hero-sect-text{
- width: 25%;
- align-content: center;
- justify-content: center;
- margin-top: 0px;
+.hero-sect-text {
+  width: 25%;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
 }
 
-.hero-sect-image{
- width: 55%;
- align-content: center;
- justify-content: center;
+.hero-sect-image {
+  width: 55%;
+  align-content: center;
+  justify-content: center;
 }
 
-.hero-img{
+.hero-img {
   width: 100%;
 }
 
-.onboarding-discount-text{
+.onboarding-discount-text {
   font-weight: var(--more-bold);
-  font-size: 1.1rem;
+  font-size: var(--header3-font-size);
 }
 
-.onboarding-discount{
+.onboarding-discount {
   color: rgba(92, 1, 196, 0.785);
 }
 
-.onboarding-heading{
-  font-size: var(--header2-font-size);
+.onboarding-heading {
+  font-size: 3rem;
   margin-top: 10px;
   margin-bottom: 20px;
   text-wrap: wrap;
 }
 
-.onboarding-text{
+.onboarding-text {
   font-size: var(--para-font-size);
   margin: var(--para-margin-bottom-top);
   margin-left: -18px;
 }
 
-.onboarding-btn, .block-btn{ 
+.onboarding-btn,
+.block-btn {
   padding: var(--btn-padding-all);
   background-color: var(--color-pur);
   font-size: var(--para-font-size);
@@ -116,19 +126,19 @@
   border: var(--none);
 }
 
-.floating-dock-msg{
+.floating-dock-msg {
   position: fixed;
-  bottom: 15px ;
+  bottom: 15px;
   right: 15px;
   display: flex;
   flex-direction: column;
 }
 
-.dock-msg-1{
+.dock-msg-1 {
   display: flex;
 }
 
-.dock-msg-2{
+.dock-msg-2 {
   align-self: end;
   padding: 13px;
   background-color: var(--color-pur);
@@ -137,21 +147,21 @@
   color: var(--color-w);
 }
 
-.cancel, .floating-msg{
+.cancel,
+.floating-msg {
   background-color: var(--color-w);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
   padding: 13px;
 }
 
-.cancel{
+.cancel {
   border-radius: 50%;
   margin-right: 10px;
   padding-left: 18px;
   padding-right: 18px;
 }
 
-.floating-msg, .dock-msg-2{
+.floating-msg,
+.dock-msg-2 {
   border-radius: 40px;
 }
-
-
