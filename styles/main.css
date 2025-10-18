@@ -54,6 +54,7 @@
 
 .stars{
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
@@ -501,3 +502,4 @@
   gap: 30px;
   align-items: start;
 }
+
