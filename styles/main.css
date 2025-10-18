@@ -52,6 +52,11 @@
   font-style: italic;
 }
 
+.stars{
+  display: flex;
+  gap: 10px;
+}
+
 .star-img,
 .star-tp {
   color: green;
@@ -488,4 +493,11 @@
   align-items: center;
   border-radius: 0px 20px 20px 0px;
   background-color: rgba(124, 133, 255, 0.089);
+}
+
+.kodee-block-1-contents>div{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
 }
